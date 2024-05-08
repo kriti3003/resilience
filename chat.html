@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <header class="container">
+    <h1><center>Welcome to chatbot</center></h1>
+  </header>
+  <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 10px; padding-left: 70px;">Dealing with Low Mood</h1>
+    
+  <h2 style="font-size: 20px; font-weight: bold; margin-top: 20px; margin-bottom: 5px; color: #39383A; padding-left: 20px;">What should you do when feeling low?</h2>
+  <p style="font-size: 16px; margin-bottom: 15px; color: #AC9C8D; padding-left: 20px"><strong>Answer:</strong> When feeling low, it's important to take a step back and acknowledge your feelings. Engage in activities that you enjoy, such as hobbies or spending time with loved ones. Practice self-care, such as getting enough sleep, eating well, and exercising regularly.</p>
+  
+  <h2 style="font-size: 20px; font-weight: bold; margin-top: 20px; margin-bottom: 5px; color: #39383A; padding-left: 20px;">How can you come over it?</h2>
+  <p style="font-size: 16px; margin-bottom: 15px; color: #AC9C8D; padding-left: 20px;"><strong>Answer:</strong> To overcome low mood, try practicing relaxation techniques like deep breathing or meditation. Challenge negative thoughts and replace them with positive affirmations. Reach out to friends or family for support, and consider seeking professional help if needed.</p>
+  
+  <h2 style="font-size: 20px; font-weight: bold; margin-top: 20px; margin-bottom: 5px; color: #39383A; padding-left: 20px;">When should you consult a specialist?</h2>
+  <p style="font-size: 16px; margin-bottom: 15px; color: #AC9C8D; padding-left: 20px;"><strong>Answer:</strong> It's advisable to consult a mental health specialist if feelings of low mood persist for an extended period, interfere with daily functioning, or if you experience symptoms of depression or anxiety.</p>
+
+  <p style="font-size: 16px; margin-top: 20px; color: #AC9C8D; padding-left: 20px;">If you're still unsure, you can chat with our chatbot located in the bottom right corner for further assistance.</p>
+  <!-- Include Botpress Webchat Script -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+        "composerPlaceholder": "Chat with bot",
+        "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+        "botId": "16736959-258d-4bc8-8756-290f6dde463b",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "16736959-258d-4bc8-8756-290f6dde463b",
+        "webhookId": "f6c7b123-aa0c-47a5-8590-82d6004e74a2",
+        "lazySocket": true,
+        "themeName": "prism",
+        "website": "https://chatbotwebsite.com",
+        "frontendVersion": "v1",
+        "enableConversationDeletion": true,
+        "theme": "prism",
+        "themeColor": "#2563eb"
+    });
+  </script>
+
+  <!-- Other content of your website -->
+
+</body>
+</html>
